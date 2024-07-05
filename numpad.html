@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="menu-container">
+        
+        <div class="header">
+            <button class="icon-button">
+                <a class="icon-back" href="checkout.html">&larr;</a>
+            </button>
+            <button class="menu-button">Pay: Henry's Deli</button>
+        </div>
+        
+        <div class="amount-display" style="width: 400px;">
+            <p id="amount">$0.00</p>
+        </div>
+
+        <div class="keypad">
+            <div class="keypad-row">
+                <button class="keypad-button" onclick="updateAmount('7')">7</button>
+                <button class="keypad-button" onclick="updateAmount('8')">8</button>
+                <button class="keypad-button" onclick="updateAmount('9')">9</button>
+            </div>
+            <div class="keypad-row">
+                <button class="keypad-button" onclick="updateAmount('4')">4</button>
+                <button class="keypad-button" onclick="updateAmount('5')">5</button>
+                <button class="keypad-button" onclick="updateAmount('6')">6</button>
+            </div>
+            <div class="keypad-row">
+                <button class="keypad-button" onclick="updateAmount('1')">1</button>
+                <button class="keypad-button" onclick="updateAmount('2')">2</button>
+                <button class="keypad-button" onclick="updateAmount('3')">3</button>
+            </div>
+            <div class="keypad-row">
+                <button class="keypad-button" onclick="clearAmount()">x</button>
+                <button class="keypad-button" onclick="updateAmount('0')">0</button>
+                <a href = confirmation.html style="text-decoration: none;">
+                    <button class="keypad-button">&#10132;</button>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
