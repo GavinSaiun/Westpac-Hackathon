@@ -5,3 +5,5 @@ Our team proposes using QR codes as an alternative to EFTPOS machines for paymen
 When using the QR code app, a camera scans the code, leading to a menu for the restaurant. The customer can then choose their preferred items and type the price, they’d like to pay in the numpad. Payment confirmations appear on both consumer and seller screens. Thus, allowing for a quick and secure wire transfer.
 
 Although logistical and financial challenges have hindered adoption in Australia, QR code payments are prevalent in countries like China and India, proving their efficiency and potential for success.
+
+https://www.youtube.com/watch?v=Jhy__1fKe0Q&t=3s
